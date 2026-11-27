@@ -1,0 +1,1206 @@
+{
+  "factories": [
+    {
+      "id": "KHV",
+      "code": "KHV",
+      "name": "KHV Vina Manufacturing",
+      "location": "KCN Quế Võ, Bắc Ninh",
+      "country": "Việt Nam",
+      "headcount": 1420,
+      "isoManager": "Nguyễn Minh Tuấn",
+      "activeStandards": [
+        "ISO-9001",
+        "ISO-14001",
+        "ISO-45001",
+        "IATF-16949"
+      ],
+      "riskProfile": "Low",
+      "lastAuditDate": "2026-09-14",
+      "nextAuditDate": "2027-03-14"
+    },
+    {
+      "id": "DAAL",
+      "code": "DAAL",
+      "name": "DAAL Precision Tech",
+      "location": "KCN Yên Phong, Bắc Ninh",
+      "country": "Việt Nam",
+      "headcount": 980,
+      "isoManager": "Trần Thị Thu Hà",
+      "activeStandards": [
+        "ISO-9001",
+        "ISO-14001",
+        "ISO-45001"
+      ],
+      "riskProfile": "Medium",
+      "lastAuditDate": "2026-10-02",
+      "nextAuditDate": "2027-01-15"
+    },
+    {
+      "id": "DREAM_TECH",
+      "code": "DREAM TECH",
+      "name": "Dream Tech Electronics",
+      "location": "KCN VSIP, Bắc Ninh",
+      "country": "Việt Nam",
+      "headcount": 2150,
+      "isoManager": "Lê Hoàng Nam",
+      "activeStandards": [
+        "ISO-9001",
+        "ISO-14001",
+        "ISO-45001",
+        "IATF-16949"
+      ],
+      "riskProfile": "Low",
+      "lastAuditDate": "2026-10-18",
+      "nextAuditDate": "2027-04-18"
+    },
+    {
+      "id": "KTECH",
+      "code": "KTECH",
+      "name": "KTECH Component Systems",
+      "location": "KCN Điềm Thụy, Thái Nguyên",
+      "country": "Việt Nam",
+      "headcount": 760,
+      "isoManager": "Phạm Quốc Bảo",
+      "activeStandards": [
+        "ISO-9001",
+        "ISO-14001"
+      ],
+      "riskProfile": "High",
+      "lastAuditDate": "2026-08-22",
+      "nextAuditDate": "2026-12-08"
+    },
+    {
+      "id": "HSTEC",
+      "code": "HSTEC",
+      "name": "HSTEC Automation & Mold",
+      "location": "KCN Khai Quang, Vĩnh Phúc",
+      "country": "Việt Nam",
+      "headcount": 640,
+      "isoManager": "Đỗ Thanh Vân",
+      "activeStandards": [
+        "ISO-9001",
+        "ISO-45001",
+        "IATF-16949"
+      ],
+      "riskProfile": "Medium",
+      "lastAuditDate": "2026-09-29",
+      "nextAuditDate": "2027-01-20"
+    },
+    {
+      "id": "HOJEONGB",
+      "code": "HOJEONGB",
+      "name": "Hojeong B Korea Plant",
+      "location": "Asan Industrial Complex",
+      "country": "Hàn Quốc",
+      "headcount": 520,
+      "isoManager": "Park Ji-Hoon",
+      "activeStandards": [
+        "ISO-9001",
+        "ISO-14001",
+        "IATF-16949"
+      ],
+      "riskProfile": "Low",
+      "lastAuditDate": "2026-10-28",
+      "nextAuditDate": "2027-04-28"
+    },
+    {
+      "id": "HOJEONG_VINA",
+      "code": "HOJEONG VINA",
+      "name": "Hojeong Vina Surface & Assembly",
+      "location": "KCN Tràng Duệ, Hải Phòng",
+      "country": "Việt Nam",
+      "headcount": 1120,
+      "isoManager": "Vũ Đức Anh",
+      "activeStandards": [
+        "ISO-9001",
+        "ISO-14001",
+        "ISO-45001"
+      ],
+      "riskProfile": "Critical",
+      "lastAuditDate": "2026-09-05",
+      "nextAuditDate": "2026-12-03"
+    }
+  ],
+  "standards": [
+    {
+      "id": "ISO-9001",
+      "code": "ISO 9001:2015",
+      "name": "Hệ thống Quản lý Chất lượng (QMS)",
+      "version": "2015.4-Dynamic",
+      "isDynamicEnabled": true,
+      "clauses": [
+        {
+          "id": "c-9001-41",
+          "standardId": "ISO-9001",
+          "clauseCode": "4.1",
+          "title": "Bối cảnh tổ chức & Các bên liên quan",
+          "category": "Context",
+          "weight": 8,
+          "riskCriticality": "Standard",
+          "description": "Xác định các vấn đề nội bộ/bên ngoài ảnh hưởng đến hệ thống QMS nhà máy."
+        },
+        {
+          "id": "c-9001-61",
+          "standardId": "ISO-9001",
+          "clauseCode": "6.1",
+          "title": "Hành động giải quyết Rủi ro & Cơ hội",
+          "category": "Planning",
+          "weight": 12,
+          "riskCriticality": "Critical",
+          "description": "Nhận diện rủi ro sản xuất, chuỗi cung ứng và kế hoạch kiểm soát phòng ngừa."
+        },
+        {
+          "id": "c-9001-75",
+          "standardId": "ISO-9001",
+          "clauseCode": "7.5",
+          "title": "Thông tin dạng văn bản (Document Control)",
+          "category": "Support",
+          "weight": 10,
+          "riskCriticality": "High",
+          "description": "Kiểm soát phiên bản, phê duyệt và phân phối SOP/WI tại hiện trường."
+        },
+        {
+          "id": "c-9001-85",
+          "standardId": "ISO-9001",
+          "clauseCode": "8.5.1",
+          "title": "Kiểm soát sản xuất & Truy xuất nguồn gốc",
+          "category": "Operation",
+          "weight": 18,
+          "riskCriticality": "Critical",
+          "description": "Kiểm soát thông số máy, đầu chuyền, truy xuất lô sản phẩm và phòng lỗi Poka-Yoke."
+        },
+        {
+          "id": "c-9001-87",
+          "standardId": "ISO-9001",
+          "clauseCode": "8.7",
+          "title": "Kiểm soát đầu ra không phù hợp (NC)",
+          "category": "Operation",
+          "weight": 15,
+          "riskCriticality": "Critical",
+          "description": "Cách ly, xử lý sản phẩm lỗi, ngăn chặn lẫn lộn giao hàng cho khách."
+        },
+        {
+          "id": "c-9001-102",
+          "standardId": "ISO-9001",
+          "clauseCode": "10.2",
+          "title": "Sự không phù hợp & Hành động khắc phục (CAPA)",
+          "category": "Improvement",
+          "weight": 16,
+          "riskCriticality": "Critical",
+          "description": "Phân tích nguyên nhân gốc (5-Why/Fishbone) và đánh giá hiệu lực CAPA."
+        }
+      ]
+    },
+    {
+      "id": "ISO-14001",
+      "code": "ISO 14001:2015",
+      "name": "Hệ thống Quản lý Môi trường (EMS)",
+      "version": "2015.2-Dynamic",
+      "isDynamicEnabled": true,
+      "clauses": [
+        {
+          "id": "c-14001-612",
+          "standardId": "ISO-14001",
+          "clauseCode": "6.1.2",
+          "title": "Khía cạnh môi trường & Chất thải nguy hại",
+          "category": "Planning",
+          "weight": 14,
+          "riskCriticality": "Critical",
+          "description": "Đánh giá tác động nước thải, khí thải, hóa chất và lưu trữ CTNH."
+        },
+        {
+          "id": "c-14001-82",
+          "standardId": "ISO-14001",
+          "clauseCode": "8.2",
+          "title": "Chuẩn bị & Ứng phó tình huống khẩn cấp",
+          "category": "Operation",
+          "weight": 12,
+          "riskCriticality": "High",
+          "description": "Diễn tập tràn đổ hóa chất, PCCC và kiểm tra thiết bị ứng cứu định kỳ."
+        }
+      ]
+    },
+    {
+      "id": "ISO-45001",
+      "code": "ISO 45001:2018",
+      "name": "An toàn & Sức khỏe Nghề nghiệp (OH&S)",
+      "version": "2018.3-Dynamic",
+      "isDynamicEnabled": true,
+      "clauses": [
+        {
+          "id": "c-45001-612",
+          "standardId": "ISO-45001",
+          "clauseCode": "6.1.2",
+          "title": "Nhận diện mối nguy & Đánh giá rủi ro ATVSLĐ",
+          "category": "Planning",
+          "weight": 15,
+          "riskCriticality": "Critical",
+          "description": "Đánh giá mối nguy cơ khí, điện, hóa chất, thiết bị nâng hạ."
+        },
+        {
+          "id": "c-45001-812",
+          "standardId": "ISO-45001",
+          "clauseCode": "8.1.2",
+          "title": "Loại bỏ mối nguy & Kiểm soát PPE",
+          "category": "Operation",
+          "weight": 14,
+          "riskCriticality": "High",
+          "description": "Che chắn an toàn máy dập/CNC, LOTO và tuân thủ bảo hộ lao động."
+        }
+      ]
+    },
+    {
+      "id": "IATF-16949",
+      "code": "IATF 16949:2016",
+      "name": "Quản lý Chất lượng Ô tô & Linh kiện chính xác",
+      "version": "2016.2-Dynamic",
+      "isDynamicEnabled": true,
+      "clauses": [
+        {
+          "id": "c-iatf-835",
+          "standardId": "IATF-16949",
+          "clauseCode": "8.3.5.2",
+          "title": "FMEA & Kế hoạch kiểm soát quá trình (Control Plan)",
+          "category": "Operation",
+          "weight": 16,
+          "riskCriticality": "Critical",
+          "description": "Đồng bộ PFMEA, Control Plan và SPC tại các công đoạn đặc biệt."
+        },
+        {
+          "id": "c-iatf-715",
+          "standardId": "IATF-16949",
+          "clauseCode": "7.1.5.2",
+          "title": "Hiệu chuẩn & Phân tích hệ thống đo lường (MSA)",
+          "category": "Support",
+          "weight": 12,
+          "riskCriticality": "High",
+          "description": "Kiểm soát hiệu chuẩn CMM, thước cặp, Gauge R&R định kỳ."
+        }
+      ]
+    }
+  ],
+  "documents": [
+    {
+      "id": "doc-1",
+      "docCode": "SOP-QMS-001",
+      "title": "Quy trình Kiểm soát Thông tin dạng văn bản",
+      "docType": "SOP",
+      "standardId": "ISO-9001",
+      "clauseCode": "7.5",
+      "factoryScope": "ALL",
+      "version": "Rev 4.2",
+      "owner": "Ban ISO Tập đoàn SEV",
+      "status": "Approved",
+      "updatedAt": "2026-09-10",
+      "nextReviewDate": "2027-09-10"
+    },
+    {
+      "id": "doc-2",
+      "docCode": "SOP-QMS-014",
+      "title": "Quy trình Xử lý Sản phẩm Không Phù Hợp & CAPA",
+      "docType": "SOP",
+      "standardId": "ISO-9001",
+      "clauseCode": "10.2",
+      "factoryScope": "ALL",
+      "version": "Rev 3.1",
+      "owner": "Ban ISO Tập đoàn SEV",
+      "status": "Approved",
+      "updatedAt": "2026-10-01",
+      "nextReviewDate": "2027-10-01"
+    },
+    {
+      "id": "doc-3",
+      "docCode": "WI-SMT-022",
+      "title": "Hướng dẫn Kiểm tra Đầu chuyền SMT & X-Ray BGA",
+      "docType": "WI",
+      "standardId": "ISO-9001",
+      "clauseCode": "8.5.1",
+      "factoryScope": "DREAM_TECH",
+      "version": "Rev 2.5",
+      "owner": "Lê Hoàng Nam",
+      "status": "Approved",
+      "updatedAt": "2026-10-20",
+      "nextReviewDate": "2027-04-20"
+    },
+    {
+      "id": "doc-4",
+      "docCode": "CP-CNC-009",
+      "title": "Control Plan Gia công Phay CNC Khung nhôm EV",
+      "docType": "Control Plan",
+      "standardId": "IATF-16949",
+      "clauseCode": "8.3.5.2",
+      "factoryScope": "KHV",
+      "version": "Rev 5.0",
+      "owner": "Nguyễn Minh Tuấn",
+      "status": "Approved",
+      "updatedAt": "2026-11-02",
+      "nextReviewDate": "2027-05-02"
+    },
+    {
+      "id": "doc-5",
+      "docCode": "SOP-EHS-008",
+      "title": "Quy trình Lưu giữ & Bàn giao Chất thải Nguy hại",
+      "docType": "SOP",
+      "standardId": "ISO-14001",
+      "clauseCode": "6.1.2",
+      "factoryScope": "HOJEONG_VINA",
+      "version": "Rev 1.9",
+      "owner": "Vũ Đức Anh",
+      "status": "In Review",
+      "updatedAt": "2026-11-18",
+      "nextReviewDate": "2027-02-18"
+    },
+    {
+      "id": "doc-6",
+      "docCode": "WI-PRESS-011",
+      "title": "Hướng dẫn Khóa nguồn LOTO Máy dập 250T",
+      "docType": "WI",
+      "standardId": "ISO-45001",
+      "clauseCode": "8.1.2",
+      "factoryScope": "KTECH",
+      "version": "Rev 1.3",
+      "owner": "Phạm Quốc Bảo",
+      "status": "Draft",
+      "updatedAt": "2026-11-22",
+      "nextReviewDate": "2026-12-15"
+    },
+    {
+      "id": "doc-7",
+      "docCode": "FM-CAL-004",
+      "title": "Biểu mẫu Hiệu chuẩn & Đánh giá Gauge R&R CMM",
+      "docType": "Form",
+      "standardId": "IATF-16949",
+      "clauseCode": "7.1.5.2",
+      "factoryScope": "HSTEC",
+      "version": "Rev 2.0",
+      "owner": "Đỗ Thanh Vân",
+      "status": "Approved",
+      "updatedAt": "2026-10-12",
+      "nextReviewDate": "2027-10-12"
+    }
+  ],
+  "assessments": [
+    {
+      "id": "sa-1",
+      "factoryId": "KHV",
+      "standardId": "ISO-9001",
+      "clauseId": "c-9001-85",
+      "clauseCode": "8.5.1",
+      "period": "Q4-2026",
+      "selfScore": 95,
+      "status": "Compliant",
+      "notes": "100% chuyền CNC có thẻ kiểm tra đầu ca và barcode truy xuất lô.",
+      "assessedBy": "Nguyễn Minh Tuấn",
+      "updatedAt": "2026-11-10"
+    },
+    {
+      "id": "sa-2",
+      "factoryId": "KHV",
+      "standardId": "IATF-16949",
+      "clauseId": "c-iatf-835",
+      "clauseCode": "8.3.5.2",
+      "period": "Q4-2026",
+      "selfScore": 92,
+      "status": "Compliant",
+      "notes": "PFMEA cập nhật đầy đủ sau thay đổi ECN-2026-18.",
+      "assessedBy": "Nguyễn Minh Tuấn",
+      "updatedAt": "2026-11-11"
+    },
+    {
+      "id": "sa-3",
+      "factoryId": "DREAM_TECH",
+      "standardId": "ISO-9001",
+      "clauseId": "c-9001-85",
+      "clauseCode": "8.5.1",
+      "period": "Q4-2026",
+      "selfScore": 93,
+      "status": "Compliant",
+      "notes": "Hệ thống MES cảnh báo sai linh kiện feeder đạt 99.8%.",
+      "assessedBy": "Lê Hoàng Nam",
+      "updatedAt": "2026-11-12"
+    },
+    {
+      "id": "sa-4",
+      "factoryId": "HOJEONGB",
+      "standardId": "ISO-9001",
+      "clauseId": "c-9001-102",
+      "clauseCode": "10.2",
+      "period": "Q4-2026",
+      "selfScore": 91,
+      "status": "Compliant",
+      "notes": "Các CAPA nội bộ đóng đúng hạn 100% trong Q3-Q4.",
+      "assessedBy": "Park Ji-Hoon",
+      "updatedAt": "2026-11-08"
+    },
+    {
+      "id": "sa-5",
+      "factoryId": "DAAL",
+      "standardId": "ISO-9001",
+      "clauseId": "c-9001-75",
+      "clauseCode": "7.5",
+      "period": "Q4-2026",
+      "selfScore": 83,
+      "status": "Partial",
+      "notes": "Cần rà soát lại 4 bảng WI bản cứng tại phân xưởng Lắp ráp B.",
+      "assessedBy": "Trần Thị Thu Hà",
+      "updatedAt": "2026-11-15"
+    },
+    {
+      "id": "sa-6",
+      "factoryId": "HSTEC",
+      "standardId": "IATF-16949",
+      "clauseId": "c-iatf-715",
+      "clauseCode": "7.1.5.2",
+      "period": "Q4-2026",
+      "selfScore": 81,
+      "status": "Partial",
+      "notes": "2 dưỡng đo biên dạng chờ tái hiệu chuẩn tại QUATEST 1.",
+      "assessedBy": "Đỗ Thanh Vân",
+      "updatedAt": "2026-11-14"
+    },
+    {
+      "id": "sa-7",
+      "factoryId": "KTECH",
+      "standardId": "ISO-9001",
+      "clauseId": "c-9001-87",
+      "clauseCode": "8.7",
+      "period": "Q4-2026",
+      "selfScore": 71,
+      "status": "Gap Identified",
+      "notes": "Khu vực cách ly hàng NG tại kho thành phẩm thiếu tem phân định đỏ.",
+      "assessedBy": "Phạm Quốc Bảo",
+      "updatedAt": "2026-11-19"
+    },
+    {
+      "id": "sa-8",
+      "factoryId": "HOJEONG_VINA",
+      "standardId": "ISO-14001",
+      "clauseId": "c-14001-612",
+      "clauseCode": "6.1.2",
+      "period": "Q4-2026",
+      "selfScore": 68,
+      "status": "Gap Identified",
+      "notes": "Bể thu gom hóa chất xi mạ cần bổ sung khay chống tràn phụ trợ.",
+      "assessedBy": "Vũ Đức Anh",
+      "updatedAt": "2026-11-20"
+    }
+  ],
+  "evidences": [
+    {
+      "id": "ev-1",
+      "title": "Biên bản Kiểm tra đầu chuyền Line CNC-04",
+      "factoryId": "KHV",
+      "standardId": "ISO-9001",
+      "clauseCode": "8.5.1",
+      "linkedType": "SelfAssessment",
+      "linkedId": "sa-1",
+      "fileName": "KHV_FirstPiece_CNC04_Nov2026.pdf",
+      "fileSizeKb": 1420,
+      "uploadedBy": "Nguyễn Minh Tuấn",
+      "uploadedAt": "2026-11-10",
+      "verified": true
+    },
+    {
+      "id": "ev-2",
+      "title": "Báo cáo Kết quả SPC & Gauge R&R Trục cam",
+      "factoryId": "DREAM_TECH",
+      "standardId": "IATF-16949",
+      "clauseCode": "8.3.5.2",
+      "linkedType": "AuditChecklist",
+      "linkedId": "au-3",
+      "fileName": "DREAMTECH_SPC_MSA_Q4.xlsx",
+      "fileSizeKb": 890,
+      "uploadedBy": "Lê Hoàng Nam",
+      "uploadedAt": "2026-11-12",
+      "verified": true
+    },
+    {
+      "id": "ev-3",
+      "title": "Ảnh hiện trường kho lưu trữ CTNH & nhãn phân loại",
+      "factoryId": "HOJEONG_VINA",
+      "standardId": "ISO-14001",
+      "clauseCode": "6.1.2",
+      "linkedType": "CAPA",
+      "linkedId": "nc-1",
+      "fileName": "HOJEONGVINA_HazWaste_Bund.jpg",
+      "fileSizeKb": 2350,
+      "uploadedBy": "Vũ Đức Anh",
+      "uploadedAt": "2026-11-21",
+      "verified": false
+    },
+    {
+      "id": "ev-4",
+      "title": "Chứng chỉ hiệu chuẩn máy đo 3D CMM Mitutoyo",
+      "factoryId": "HOJEONGB",
+      "standardId": "IATF-16949",
+      "clauseCode": "7.1.5.2",
+      "linkedType": "SelfAssessment",
+      "linkedId": "sa-4",
+      "fileName": "HOJEONGB_CMM_Cert_2026.pdf",
+      "fileSizeKb": 640,
+      "uploadedBy": "Park Ji-Hoon",
+      "uploadedAt": "2026-11-05",
+      "verified": true
+    },
+    {
+      "id": "ev-5",
+      "title": "Biên bản diễn tập ứng cứu tràn đổ dung môi xưởng Sơn",
+      "factoryId": "DAAL",
+      "standardId": "ISO-14001",
+      "clauseCode": "8.2",
+      "linkedType": "AuditChecklist",
+      "linkedId": "au-2",
+      "fileName": "DAAL_SpillDrill_Oct2026.pdf",
+      "fileSizeKb": 1840,
+      "uploadedBy": "Trần Thị Thu Hà",
+      "uploadedAt": "2026-10-25",
+      "verified": true
+    }
+  ],
+  "risks": [
+    {
+      "id": "rk-1",
+      "factoryId": "HOJEONG_VINA",
+      "processName": "Xử lý bề mặt & Xi mạ",
+      "standardId": "ISO-14001",
+      "clauseCode": "6.1.2",
+      "title": "Rò rỉ dung dịch axit/kiềm tại khu vực bể mạ số 2",
+      "description": "Đường ống dẫn hóa chất có dấu hiệu ăn mòn khớp nối, khay chống tràn chưa đủ 110% dung tích.",
+      "likelihood": 4,
+      "impact": 5,
+      "riskScore": 20,
+      "riskLevel": "Critical",
+      "mitigationPlan": "Thay khớp nối PTFE và lắp đặt cảm biến pH cảnh báo tràn tức thời.",
+      "owner": "Vũ Đức Anh",
+      "auditFrequency": "3 tháng/lần",
+      "status": "Open",
+      "updatedAt": "2026-11-21"
+    },
+    {
+      "id": "rk-2",
+      "factoryId": "KTECH",
+      "processName": "Dập nguội & Kiểm tra cuối chuyền",
+      "standardId": "ISO-9001",
+      "clauseCode": "8.7",
+      "title": "Nguy cơ lẫn lộn sản phẩm NG vào lô xuất khẩu",
+      "description": "Thùng chứa hàng NG đặt gần khu vực đóng gói thành phẩm và chưa khóa niêm phong.",
+      "likelihood": 4,
+      "impact": 4,
+      "riskScore": 16,
+      "riskLevel": "Critical",
+      "mitigationPlan": "Thiết lập lồng khóa Red-Bin có kiểm soát quét mã QR 2 lớp.",
+      "owner": "Phạm Quốc Bảo",
+      "auditFrequency": "3 tháng/lần",
+      "status": "Mitigating",
+      "updatedAt": "2026-11-19"
+    },
+    {
+      "id": "rk-3",
+      "factoryId": "KTECH",
+      "processName": "Bảo trì máy dập",
+      "standardId": "ISO-45001",
+      "clauseCode": "8.1.2",
+      "title": "Thiếu quy trình khóa nguồn LOTO khi thay khuôn",
+      "description": "Kỹ thuật viên bảo trì chưa sử dụng khóa cá nhân chuẩn hóa khi vệ sinh khuôn dập.",
+      "likelihood": 3,
+      "impact": 5,
+      "riskScore": 15,
+      "riskLevel": "High",
+      "mitigationPlan": "Ban hành WI-PRESS-011, cấp bộ khóa LOTO cá nhân và kiểm tra đột xuất.",
+      "owner": "Phạm Quốc Bảo",
+      "auditFrequency": "3 tháng/lần",
+      "status": "Open",
+      "updatedAt": "2026-11-20"
+    },
+    {
+      "id": "rk-4",
+      "factoryId": "HSTEC",
+      "processName": "Phòng Đo lường QA",
+      "standardId": "IATF-16949",
+      "clauseCode": "7.1.5.2",
+      "title": "Trễ hạn hiệu chuẩn dưỡng kiểm Go/No-Go",
+      "description": "Một số dưỡng đo chuyên dụng của dự án mới sắp quá chu kỳ hiệu chuẩn 6 tháng.",
+      "likelihood": 3,
+      "impact": 4,
+      "riskScore": 12,
+      "riskLevel": "High",
+      "mitigationPlan": "Kích hoạt cảnh báo tự động trước 30 ngày và gửi hiệu chuẩn dự phòng.",
+      "owner": "Đỗ Thanh Vân",
+      "auditFrequency": "3 tháng/lần",
+      "status": "Mitigating",
+      "updatedAt": "2026-11-14"
+    },
+    {
+      "id": "rk-5",
+      "factoryId": "DAAL",
+      "processName": "Lắp ráp hoàn thiện B",
+      "standardId": "ISO-9001",
+      "clauseCode": "7.5",
+      "title": "Sử dụng tài liệu WI phiên bản cũ tại chuyền",
+      "description": "Thay đổi kỹ thuật ECN chưa được thu hồi kịp thời bản in giấy tại 2 trạm hàn.",
+      "likelihood": 3,
+      "impact": 3,
+      "riskScore": 9,
+      "riskLevel": "Medium",
+      "mitigationPlan": "Chuyển đổi hiển thị WI qua màn hình tablet đồng bộ từ hệ thống trung tâm.",
+      "owner": "Trần Thị Thu Hà",
+      "auditFrequency": "6 tháng/lần",
+      "status": "Mitigating",
+      "updatedAt": "2026-11-15"
+    },
+    {
+      "id": "rk-6",
+      "factoryId": "KHV",
+      "processName": "Gia công CNC chính xác",
+      "standardId": "IATF-16949",
+      "clauseCode": "8.3.5.2",
+      "title": "Biến động độ nhám bề mặt khi đổi nhà cung cấp dao cắt",
+      "description": "Kiểm soát thông số Cpk >= 1.67 khi chạy thử lô dao phay mới.",
+      "likelihood": 2,
+      "impact": 3,
+      "riskScore": 6,
+      "riskLevel": "Medium",
+      "mitigationPlan": "Thực hiện đánh giá mẫu đầu tiên (PPAP) và theo dõi SPC 30 mẫu liên tiếp.",
+      "owner": "Nguyễn Minh Tuấn",
+      "auditFrequency": "6 tháng/lần",
+      "status": "Controlled",
+      "updatedAt": "2026-11-08"
+    },
+    {
+      "id": "rk-7",
+      "factoryId": "DREAM_TECH",
+      "processName": "Chuyền SMT tốc độ cao",
+      "standardId": "ISO-9001",
+      "clauseCode": "8.5.1",
+      "title": "Sai lệch nhiệt độ lò hàn Reflow zone 4",
+      "description": "Chênh lệch nhiệt độ ±3°C có thể ảnh hưởng mối hàn BGA.",
+      "likelihood": 1,
+      "impact": 4,
+      "riskScore": 4,
+      "riskLevel": "Low",
+      "mitigationPlan": "Đo profile nhiệt hàng ngày và tích hợp cảnh báo PLC tự động dừng chuyền.",
+      "owner": "Lê Hoàng Nam",
+      "auditFrequency": "12 tháng/lần",
+      "status": "Controlled",
+      "updatedAt": "2026-11-09"
+    }
+  ],
+  "audits": [
+    {
+      "id": "au-1",
+      "auditCode": "AUD-2026-HV01",
+      "factoryId": "HOJEONG_VINA",
+      "standardId": "ISO-14001",
+      "auditType": "Risk-Based Scheduled",
+      "riskTriggerLevel": "Critical",
+      "leadAuditor": "Trần Văn Cường (SEV Lead Auditor)",
+      "plannedDate": "2026-12-03",
+      "status": "In Progress",
+      "checklist": [
+        {
+          "id": "chk-101",
+          "auditId": "au-1",
+          "clauseId": "c-14001-612",
+          "clauseCode": "6.1.2",
+          "clauseTitle": "Khía cạnh môi trường & Chất thải nguy hại",
+          "weight": 14,
+          "result": "Major NC",
+          "auditorNote": "Bể chứa dung dịch mạ số 2 chưa có khay chống tràn đạt 110% thể tích.",
+          "evidenceRef": "HOJEONGVINA_HazWaste_Bund.jpg"
+        },
+        {
+          "id": "chk-102",
+          "auditId": "au-1",
+          "clauseId": "c-14001-82",
+          "clauseCode": "8.2",
+          "clauseTitle": "Chuẩn bị & Ứng phó tình huống khẩn cấp",
+          "weight": 12,
+          "result": "Minor NC",
+          "auditorNote": "Vòi rửa mắt khẩn cấp tại khu hóa chất có áp lực nước yếu hơn tiêu chuẩn.",
+          "evidenceRef": "Checklist hiện trường"
+        },
+        {
+          "id": "chk-103",
+          "auditId": "au-1",
+          "clauseId": "c-9001-102",
+          "clauseCode": "10.2",
+          "clauseTitle": "Sự không phù hợp & Hành động khắc phục (CAPA)",
+          "weight": 16,
+          "result": "Compliant",
+          "auditorNote": "Hồ sơ theo dõi CAPA quý trước đã lưu đủ dữ liệu.",
+          "evidenceRef": "CAPA Log Q3"
+        }
+      ]
+    },
+    {
+      "id": "au-2",
+      "auditCode": "AUD-2026-KT02",
+      "factoryId": "KTECH",
+      "standardId": "ISO-9001",
+      "auditType": "Risk-Based Scheduled",
+      "riskTriggerLevel": "High",
+      "leadAuditor": "Lê Thị Mai (SEV Senior Auditor)",
+      "plannedDate": "2026-12-08",
+      "status": "In Progress",
+      "checklist": [
+        {
+          "id": "chk-201",
+          "auditId": "au-2",
+          "clauseId": "c-9001-87",
+          "clauseCode": "8.7",
+          "clauseTitle": "Kiểm soát đầu ra không phù hợp (NC)",
+          "weight": 15,
+          "result": "Major NC",
+          "auditorNote": "Phát hiện 2 khay hàng NG không có thẻ đỏ tại khu vực đóng gói.",
+          "evidenceRef": "Ảnh kiểm tra kho KTECH"
+        },
+        {
+          "id": "chk-202",
+          "auditId": "au-2",
+          "clauseId": "c-9001-75",
+          "clauseCode": "7.5",
+          "clauseTitle": "Thông tin dạng văn bản (Document Control)",
+          "weight": 10,
+          "result": "Minor NC",
+          "auditorNote": "1 biểu mẫu kiểm tra ngoại quan thiếu chữ ký phê duyệt mới.",
+          "evidenceRef": "WI-PRESS-011"
+        },
+        {
+          "id": "chk-203",
+          "auditId": "au-2",
+          "clauseId": "c-9001-85",
+          "clauseCode": "8.5.1",
+          "clauseTitle": "Kiểm soát sản xuất & Truy xuất nguồn gốc",
+          "weight": 18,
+          "result": "Compliant",
+          "auditorNote": "Tem truy xuất lot sản xuất trên máy dập đầy đủ.",
+          "evidenceRef": "Batch Log #882"
+        }
+      ]
+    },
+    {
+      "id": "au-3",
+      "auditCode": "AUD-2026-KHV01",
+      "factoryId": "KHV",
+      "standardId": "ISO-9001",
+      "auditType": "Surveillance",
+      "riskTriggerLevel": "Low",
+      "leadAuditor": "Trần Văn Cường (SEV Lead Auditor)",
+      "plannedDate": "2026-09-14",
+      "status": "Completed",
+      "checklist": [
+        {
+          "id": "chk-301",
+          "auditId": "au-3",
+          "clauseId": "c-9001-41",
+          "clauseCode": "4.1",
+          "clauseTitle": "Bối cảnh tổ chức & Các bên liên quan",
+          "weight": 8,
+          "result": "Compliant",
+          "auditorNote": "Cập nhật ma trận SWOT & yêu cầu khách hàng ô tô đầy đủ.",
+          "evidenceRef": "QMS Context 2026"
+        },
+        {
+          "id": "chk-302",
+          "auditId": "au-3",
+          "clauseId": "c-9001-85",
+          "clauseCode": "8.5.1",
+          "clauseTitle": "Kiểm soát sản xuất & Truy xuất nguồn gốc",
+          "weight": 18,
+          "result": "Compliant",
+          "auditorNote": "Hệ thống MES & kiểm soát thông số gia công CNC đạt chuẩn.",
+          "evidenceRef": "KHV_FirstPiece_CNC04_Nov2026.pdf"
+        },
+        {
+          "id": "chk-303",
+          "auditId": "au-3",
+          "clauseId": "c-9001-102",
+          "clauseCode": "10.2",
+          "clauseTitle": "Sự không phù hợp & Hành động khắc phục (CAPA)",
+          "weight": 16,
+          "result": "OFI",
+          "auditorNote": "Khuyến nghị số hóa biểu mẫu kiểm tra dao cắt sang tablet.",
+          "evidenceRef": "Tooling Log"
+        }
+      ]
+    },
+    {
+      "id": "au-4",
+      "auditCode": "AUD-2026-DT03",
+      "factoryId": "DREAM_TECH",
+      "standardId": "IATF-16949",
+      "auditType": "Surveillance",
+      "riskTriggerLevel": "Low",
+      "leadAuditor": "Lê Thị Mai (SEV Senior Auditor)",
+      "plannedDate": "2026-10-18",
+      "status": "Completed",
+      "checklist": [
+        {
+          "id": "chk-401",
+          "auditId": "au-4",
+          "clauseId": "c-iatf-835",
+          "clauseCode": "8.3.5.2",
+          "clauseTitle": "FMEA & Kế hoạch kiểm soát quá trình (Control Plan)",
+          "weight": 16,
+          "result": "Compliant",
+          "auditorNote": "Đồng bộ tốt giữa PFMEA và Control Plan tại 6 line SMT.",
+          "evidenceRef": "DREAMTECH_SPC_MSA_Q4.xlsx"
+        },
+        {
+          "id": "chk-402",
+          "auditId": "au-4",
+          "clauseId": "c-iatf-715",
+          "clauseCode": "7.1.5.2",
+          "clauseTitle": "Hiệu chuẩn & Phân tích hệ thống đo lường (MSA)",
+          "weight": 12,
+          "result": "Compliant",
+          "auditorNote": "100% máy AOI & SPI hiệu chuẩn còn hạn.",
+          "evidenceRef": "Cal Certs 2026"
+        }
+      ]
+    },
+    {
+      "id": "au-5",
+      "auditCode": "AUD-2026-DL02",
+      "factoryId": "DAAL",
+      "standardId": "ISO-9001",
+      "auditType": "Risk-Based Scheduled",
+      "riskTriggerLevel": "Medium",
+      "leadAuditor": "Trần Văn Cường (SEV Lead Auditor)",
+      "plannedDate": "2026-10-02",
+      "status": "Completed",
+      "checklist": [
+        {
+          "id": "chk-501",
+          "auditId": "au-5",
+          "clauseId": "c-9001-75",
+          "clauseCode": "7.5",
+          "clauseTitle": "Thông tin dạng văn bản (Document Control)",
+          "weight": 10,
+          "result": "Minor NC",
+          "auditorNote": "Phát hiện 1 bản WI cũ Rev 1.2 vẫn treo tại trạm hàn số 3.",
+          "evidenceRef": "Ảnh hiện trường DAAL"
+        },
+        {
+          "id": "chk-502",
+          "auditId": "au-5",
+          "clauseId": "c-9001-85",
+          "clauseCode": "8.5.1",
+          "clauseTitle": "Kiểm soát sản xuất & Truy xuất nguồn gốc",
+          "weight": 18,
+          "result": "Compliant",
+          "auditorNote": "Kiểm tra chất lượng bán thành phẩm đạt yêu cầu.",
+          "evidenceRef": "QC Log"
+        }
+      ]
+    },
+    {
+      "id": "au-6",
+      "auditCode": "AUD-2026-HS01",
+      "factoryId": "HSTEC",
+      "standardId": "IATF-16949",
+      "auditType": "Risk-Based Scheduled",
+      "riskTriggerLevel": "Medium",
+      "leadAuditor": "Lê Thị Mai (SEV Senior Auditor)",
+      "plannedDate": "2026-09-29",
+      "status": "Completed",
+      "checklist": [
+        {
+          "id": "chk-601",
+          "auditId": "au-6",
+          "clauseId": "c-iatf-715",
+          "clauseCode": "7.1.5.2",
+          "clauseTitle": "Hiệu chuẩn & Phân tích hệ thống đo lường (MSA)",
+          "weight": 12,
+          "result": "Minor NC",
+          "auditorNote": "2 dưỡng đo biên dạng chưa cập nhật tem hiệu chuẩn định kỳ.",
+          "evidenceRef": "FM-CAL-004"
+        },
+        {
+          "id": "chk-602",
+          "auditId": "au-6",
+          "clauseId": "c-9001-85",
+          "clauseCode": "8.5.1",
+          "clauseTitle": "Kiểm soát sản xuất & Truy xuất nguồn gốc",
+          "weight": 18,
+          "result": "Compliant",
+          "auditorNote": "Quy trình ép nhựa & kiểm tra kích thước đạt chuẩn.",
+          "evidenceRef": "Molding QC Sheet"
+        }
+      ]
+    },
+    {
+      "id": "au-7",
+      "auditCode": "AUD-2026-HJB01",
+      "factoryId": "HOJEONGB",
+      "standardId": "ISO-9001",
+      "auditType": "Surveillance",
+      "riskTriggerLevel": "Low",
+      "leadAuditor": "Kim Min-Seo (SEV Korea Auditor)",
+      "plannedDate": "2026-10-28",
+      "status": "Completed",
+      "checklist": [
+        {
+          "id": "chk-701",
+          "auditId": "au-7",
+          "clauseId": "c-9001-85",
+          "clauseCode": "8.5.1",
+          "clauseTitle": "Kiểm soát sản xuất & Truy xuất nguồn gốc",
+          "weight": 18,
+          "result": "Compliant",
+          "auditorNote": "Hệ thống tự động hóa cấp liệu và truy xuất QR hoạt động ổn định.",
+          "evidenceRef": "HOJEONGB_CMM_Cert_2026.pdf"
+        },
+        {
+          "id": "chk-702",
+          "auditId": "au-7",
+          "clauseId": "c-9001-102",
+          "clauseCode": "10.2",
+          "clauseTitle": "Sự không phù hợp & Hành động khắc phục (CAPA)",
+          "weight": 16,
+          "result": "Compliant",
+          "auditorNote": "Hồ sơ phân tích 8D đầy đủ, đóng 100% đúng hạn.",
+          "evidenceRef": "8D Report Archive"
+        }
+      ]
+    }
+  ],
+  "ncs": [
+    {
+      "id": "nc-1",
+      "ncCode": "NC-2026-HV-01",
+      "factoryId": "HOJEONG_VINA",
+      "auditId": "au-1",
+      "standardId": "ISO-14001",
+      "clauseCode": "6.1.2",
+      "severity": "Major NC",
+      "title": "Thiếu khay chống tràn phụ trợ 110% tại bể hóa chất xi mạ số 2",
+      "findingDescription": "Tại khu vực bể tẩy dầu và axit dây chuyền mạ 2, không có hệ thống đê bao hoặc khay chứa dự phòng đạt 110% thể tích bể lớn nhất.",
+      "rootCause": "Khi mở rộng công suất bể mạ trong tháng 8/2026, bộ phận Cơ điện không thực hiện quy trình đánh giá thay đổi (MOC) với phòng EHS.",
+      "correctiveAction": "Lắp đặt bồn chống tràn composite chịu axit dung tích 1,500L và cảm biến rò rỉ kết nối phòng bảo vệ.",
+      "preventiveAction": "Cập nhật checklist MOC bắt buộc chữ ký EHS trước khi lắp đặt bất kỳ thiết bị chứa hóa chất nào.",
+      "owner": "Vũ Đức Anh",
+      "dueDate": "2026-12-05",
+      "status": "CAPA Submitted",
+      "effectivenessResult": "Pending",
+      "verifiedBy": "",
+      "createdAt": "2026-11-20"
+    },
+    {
+      "id": "nc-2",
+      "ncCode": "NC-2026-KT-01",
+      "factoryId": "KTECH",
+      "auditId": "au-2",
+      "standardId": "ISO-9001",
+      "clauseCode": "8.7",
+      "severity": "Major NC",
+      "title": "Sản phẩm NG không gắn thẻ đỏ & đặt chung khu vực thành phẩm",
+      "findingDescription": "Kiểm tra tại line Dập số 3 phát hiện 2 khay linh kiện lỗi bavia không có tem NG màu đỏ, đặt sát pallet chờ xuất hàng.",
+      "rootCause": "Thiếu khu vực Red-Bin có khóa riêng cho ca đêm và công nhân mới chưa được đào tạo nhận diện hàng NG.",
+      "correctiveAction": "Thu hồi kiểm tra 100% lô sản xuất ngày 19/11, trang bị tủ Red-Bin khóa từ và đào tạo lại 100% tổ dập.",
+      "preventiveAction": "Áp dụng quét barcode chặn xuất kho nếu lô chưa có xác nhận QC Pass trên hệ thống.",
+      "owner": "Phạm Quốc Bảo",
+      "dueDate": "2026-12-02",
+      "status": "Open",
+      "effectivenessResult": "Pending",
+      "verifiedBy": "",
+      "createdAt": "2026-11-19"
+    },
+    {
+      "id": "nc-3",
+      "ncCode": "NC-2026-HV-02",
+      "factoryId": "HOJEONG_VINA",
+      "auditId": "au-1",
+      "standardId": "ISO-14001",
+      "clauseCode": "8.2",
+      "severity": "Minor NC",
+      "title": "Áp lực vòi rửa mắt khẩn cấp xưởng hóa chất không đạt ngưỡng",
+      "findingDescription": "Kiểm tra vòi rửa mắt số 2 cho thấy lưu lượng nước yếu khi mở van.",
+      "rootCause": "Lưới lọc đầu vòi bị đóng cặn khoáng do không xả vệ sinh hàng tuần.",
+      "correctiveAction": "Thay đầu lọc mới và lắp đồng hồ đo áp lực đường ống nhánh.",
+      "preventiveAction": "Đưa hạng mục xả thử vòi rửa mắt vào checklist bảo trì hàng tuần của EHS.",
+      "owner": "Vũ Đức Anh",
+      "dueDate": "2026-12-01",
+      "status": "Implemented",
+      "effectivenessResult": "Pending",
+      "verifiedBy": "",
+      "createdAt": "2026-11-20"
+    },
+    {
+      "id": "nc-4",
+      "ncCode": "NC-2026-DL-01",
+      "factoryId": "DAAL",
+      "auditId": "au-5",
+      "standardId": "ISO-9001",
+      "clauseCode": "7.5",
+      "severity": "Minor NC",
+      "title": "Tồn tại hướng dẫn công việc WI bản cũ tại trạm hàn số 3",
+      "findingDescription": "Phát hiện WI-ASM-007 Rev 1.2 vẫn treo tại chuyền dù Rev 2.0 đã phát hành từ 15/09.",
+      "rootCause": "Nhân viên kiểm soát tài liệu DCC bàn giao bản mới cho tổ trưởng nhưng chưa trực tiếp thu hồi bản cũ tại hiện trường.",
+      "correctiveAction": "Thu hồi ngay bản Rev 1.2, niêm yết Rev 2.0 và rà soát toàn bộ 12 trạm lắp ráp.",
+      "preventiveAction": "Áp dụng quy tắc \"1 đổi 1\" có ký nhận thu hồi bản cũ và triển khai màn hình hiển thị WI điện tử.",
+      "owner": "Trần Thị Thu Hà",
+      "dueDate": "2026-11-15",
+      "status": "Verified",
+      "effectivenessResult": "Effective",
+      "verifiedBy": "Trần Văn Cường (SEV)",
+      "createdAt": "2026-10-03"
+    },
+    {
+      "id": "nc-5",
+      "ncCode": "NC-2026-HS-01",
+      "factoryId": "HSTEC",
+      "auditId": "au-6",
+      "standardId": "IATF-16949",
+      "clauseCode": "7.1.5.2",
+      "severity": "Minor NC",
+      "title": "2 dưỡng đo biên dạng chờ tái hiệu chuẩn chưa dán nhãn Tạm ngưng",
+      "findingDescription": "Hai dưỡng kiểm Go/No-Go hết hạn hiệu chuẩn ngày 20/09 vẫn nằm trên giá dụng cụ phòng QA.",
+      "rootCause": "Nhắc nhở hiệu chuẩn đang theo dõi thủ công trên Excel nên bỏ sót 2 mã dưỡng mới.",
+      "correctiveAction": "Cách ly 2 dưỡng kiểm, gửi hiệu chuẩn khẩn cấp và kiểm tra lại các lô đã đo từ 20/09.",
+      "preventiveAction": "Nhập toàn bộ 185 thiết bị đo lên hệ thống cảnh báo tự động trước 30 ngày.",
+      "owner": "Đỗ Thanh Vân",
+      "dueDate": "2026-11-28",
+      "status": "Implemented",
+      "effectivenessResult": "Pending",
+      "verifiedBy": "",
+      "createdAt": "2026-10-01"
+    },
+    {
+      "id": "nc-6",
+      "ncCode": "NC-2026-KHV-01",
+      "factoryId": "KHV",
+      "auditId": "au-3",
+      "standardId": "ISO-9001",
+      "clauseCode": "10.2",
+      "severity": "OFI",
+      "title": "Số hóa nhật ký thay dao phay CNC để đồng bộ dữ liệu SPC",
+      "findingDescription": "Ghi chép tuổi thọ dao phay đang thực hiện bằng sổ tay tại máy CNC-01 đến CNC-08.",
+      "rootCause": "Chưa tích hợp module cảnh báo tuổi thọ dao vào bảng điều khiển MES.",
+      "correctiveAction": "Cập nhật giao diện nhập số lần cắt trên màn hình tablet tại cụm máy CNC.",
+      "preventiveAction": "Chuẩn hóa báo cáo tuổi thọ dao tự động hàng tuần.",
+      "owner": "Nguyễn Minh Tuấn",
+      "dueDate": "2026-11-10",
+      "status": "Closed",
+      "effectivenessResult": "Effective",
+      "verifiedBy": "Trần Văn Cường (SEV)",
+      "createdAt": "2026-09-15",
+      "closedAt": "2026-11-08"
+    }
+  ],
+  "users": [
+    {
+      "id": "u-1",
+      "fullName": "Trần Văn Cường",
+      "email": "cuong.tv@sev-iso.com",
+      "role": "SEV_ADMIN",
+      "assignedFactoryId": "ALL",
+      "department": "SEV Corporate ISO & Audit Center",
+      "active": true
+    },
+    {
+      "id": "u-2",
+      "fullName": "Nguyễn Minh Tuấn",
+      "email": "tuan.nm@khv-vina.com",
+      "role": "FACTORY_MANAGER",
+      "assignedFactoryId": "KHV",
+      "department": "QA & ISO Management",
+      "active": true
+    },
+    {
+      "id": "u-3",
+      "fullName": "Vũ Đức Anh",
+      "email": "anh.vd@hojeongvina.com",
+      "role": "FACTORY_MANAGER",
+      "assignedFactoryId": "HOJEONG_VINA",
+      "department": "EHS & ISO Control",
+      "active": true
+    },
+    {
+      "id": "u-4",
+      "fullName": "Phạm Quốc Bảo",
+      "email": "bao.pq@ktech-vn.com",
+      "role": "DEPT_OWNER",
+      "assignedFactoryId": "KTECH",
+      "department": "Production & Stamping",
+      "active": true
+    },
+    {
+      "id": "u-5",
+      "fullName": "Lê Thu Trang",
+      "email": "trang.lt@daal-tech.com",
+      "role": "STAFF",
+      "assignedFactoryId": "DAAL",
+      "department": "Document Control Center (DCC)",
+      "active": true
+    }
+  ],
+  "auditLogs": [
+    {
+      "id": "log-1",
+      "timestamp": "2026-11-26 09:42:10",
+      "actorName": "Vũ Đức Anh",
+      "actorRole": "FACTORY_MANAGER",
+      "factoryId": "HOJEONG_VINA",
+      "module": "NC & CAPA",
+      "action": "SUBMIT_CAPA",
+      "detail": "Nộp kế hoạch khắc phục CAPA cho NC-2026-HV-01 (Bể mạ số 2)."
+    },
+    {
+      "id": "log-2",
+      "timestamp": "2026-11-26 08:15:33",
+      "actorName": "Trần Văn Cường",
+      "actorRole": "SEV_ADMIN",
+      "factoryId": "KTECH",
+      "module": "Audit Program",
+      "action": "TRIGGER_RISK_AUDIT",
+      "detail": "Kích hoạt lịch Risk-Based Audit (3 tháng/lần) cho KTECH do điểm rủi ro Critical."
+    },
+    {
+      "id": "log-3",
+      "timestamp": "2026-11-25 16:20:05",
+      "actorName": "Nguyễn Minh Tuấn",
+      "actorRole": "FACTORY_MANAGER",
+      "factoryId": "KHV",
+      "module": "Document Control",
+      "action": "APPROVE_DOC",
+      "detail": "Phê duyệt CP-CNC-009 Rev 5.0 cho dây chuyền gia công CNC EV."
+    },
+    {
+      "id": "log-4",
+      "timestamp": "2026-11-25 14:05:49",
+      "actorName": "Trần Thị Thu Hà",
+      "actorRole": "FACTORY_MANAGER",
+      "factoryId": "DAAL",
+      "module": "Self-Assessment",
+      "action": "UPDATE_SCORE",
+      "detail": "Cập nhật tự đánh giá điều khoản 7.5 (83/100) cho kỳ Q4-2026."
+    }
+  ],
+  "alertRules": [
+    {
+      "id": "al-1",
+      "name": "Cảnh báo Major NC chưa nộp CAPA quá 48 giờ",
+      "condition": "severity === \"Major NC\" && status === \"Open\" && ageHours > 48",
+      "severity": "Critical",
+      "enabled": true,
+      "triggeredCount": 1
+    },
+    {
+      "id": "al-2",
+      "name": "Tự động rút ngắn chu kỳ Audit khi Risk Score >= 15",
+      "condition": "riskScore >= 15 => auditCadence = \"3 tháng/lần\"",
+      "severity": "Warning",
+      "enabled": true,
+      "triggeredCount": 3
+    },
+    {
+      "id": "al-3",
+      "name": "Nhắc tái xét duyệt Tài liệu ISO trước hạn 30 ngày",
+      "condition": "daysToReview <= 30 && status === \"Approved\"",
+      "severity": "Info",
+      "enabled": true,
+      "triggeredCount": 2
+    }
+  ]
+}

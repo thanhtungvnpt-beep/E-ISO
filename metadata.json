@@ -1,0 +1,6 @@
+{
+  "name": "ISO CONTROL PRO",
+  "description": "Centralized 7-factory ISO management, risk-based auditing, hybrid scoring, NC/CAPA workflow, and AI compliance control tower.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
